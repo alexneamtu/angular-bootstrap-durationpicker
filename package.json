@@ -1,0 +1,54 @@
+{
+  "name": "angular-bootstrap-durationpicker",
+  "version": "0.0.1",
+  "description": "AngularJS duration picker directive for bootstrap",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "npm run build && webpack -w",
+    "build": "webpack -p",
+    "test": "./node_modules/karma/bin/karma start --single-run --browsers PhantomJS",
+    "prepublish": "npm run build && npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexneamtu/angular-bootstrap-durationpicker.git"
+  },
+  "keywords": [
+    "node-module",
+    "es6",
+    "webpack",
+    "babel",
+    "angular",
+    "duration-picker",
+    "duration",
+    "directive",
+    "bootstrap"
+  ],
+  "author": "Alex Neamtu <alexneamtu@gmail.com> ",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexneamtu/angular-bootstrap-durationpicker/issues"
+  },
+  "homepage": "https://github.com/alexneamtu/angular-bootstrap-durationpicker#readme",
+  "devDependencies": {
+    "angular-mocks": "^1.5.9",
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.8",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-es2016": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "html-loader": "^0.4.4",
+    "jasmine-core": "^2.5.2",
+    "karma": "^1.3.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-firefox-launcher": "^1.0.0",
+    "karma-jasmine": "^1.0.2",
+    "karma-phantomjs-launcher": "^1.0.2",
+    "webpack": "^1.13.3"
+  },
+  "dependencies": {
+    "angular": "^1.5.9"
+  }
+}
