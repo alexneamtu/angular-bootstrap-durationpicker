@@ -6,7 +6,7 @@
   "scripts": {
     "start": "npm run build && webpack -w",
     "build": "webpack -p",
-    "test": "./node_modules/karma/bin/karma start --single-run --browsers PhantomJS",
+    "test": "./node_modules/karma/bin/karma start --single-run --browsers Chrome",
     "prepublish": "npm run build && npm run test"
   },
   "repository": {

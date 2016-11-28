@@ -20,7 +20,7 @@ module.exports = function (config) {
         browsers: ['Chrome'],
         frameworks: ['jasmine'],
 
-        plugins : ['karma-jasmine', 'karma-phantomjs-launcher', 'karma-chrome-launcher'],
+        plugins : ['karma-jasmine', 'karma-chrome-launcher'],
 
 
         captureTimeout: 60000,
